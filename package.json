@@ -11,6 +11,9 @@
     "build": "microbundle -o dist",
     "dev": "microbundle watch"
   },
+  "files": [
+    "/dist"
+  ],
   "keywords": [
     "js",
     "library",
