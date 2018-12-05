@@ -4,7 +4,7 @@
 
 # Mobik
 
-Fast tiny `Array` utility for merging an array of objects by a given key.
+Fast **273 bytes** `Array` utility for merging an array of objects by a given key.
 
 ## :package: Installation
 

@@ -1,11 +1,11 @@
 {
   "name": "mobyk",
   "version": "0.2.0",
-  "description": "Tiny Array utility for merging an array of objects by a given key",
+  "description": "273 Bytes Array utility for merging an array of objects by a given key",
   "source": "src/index.js",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "umd:main": "dist/index.umd.js",
+  "main": "dist/mobyk.js",
+  "module": "dist/mobyk.mjs",
+  "umd:main": "dist/mobyk.umd.js",
   "scripts": {
     "test": "xo src/*.js && jest",
     "build": "microbundle -o dist",
