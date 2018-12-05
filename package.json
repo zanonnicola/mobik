@@ -1,6 +1,6 @@
 {
   "name": "mobyk",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tiny Array utility for merging an array of objects by a given key",
   "source": "src/index.js",
   "main": "dist/index.js",
