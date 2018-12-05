@@ -17,7 +17,7 @@ export default function mobik(key = throwIfMissing(), array = throwIfMissing()) 
 			map.set(elKey, [el]);
 		}
 	});
-	if (map.has(undefined)) {
+	if (map.has(undefined) && map.size === 1) {
 		return [];
 	}
 
