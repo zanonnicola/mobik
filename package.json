@@ -1,6 +1,6 @@
 {
   "name": "mobik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "273 Bytes Array utility for merging an array of objects by a given key",
   "source": "src/index.js",
   "main": "dist/mobik.js",
