@@ -1,0 +1,44 @@
+{
+  "name": "mobyk",
+  "version": "0.1.0",
+  "description": "Tiny Array utility for merging an array of objects by a given key",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "umd:main": "dist/index.umd.js",
+  "scripts": {
+    "test": "xo src/*.js && jest",
+    "build": "microbundle -o dist",
+    "dev": "microbundle watch"
+  },
+  "keywords": [
+    "js",
+    "library",
+    "array",
+    "utility"
+  ],
+  "xo": {
+    "envs": [
+      "node",
+      "jest"
+    ]
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/*.{js}"
+    ]
+  },
+  "repository": "zanonnicola/mobik",
+  "author": "Nicola Zanon <nicola.zanon86@gmail.com> (https://nicola-zanon.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "microbundle": "^0.8.3",
+    "regenerator-runtime": "^0.13.1",
+    "xo": "^0.23.0"
+  }
+}
