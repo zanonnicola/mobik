@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.ibb.co/xXcKJnn/mobik.jpg" width="597" alt="MOBIK">
+</p>
+
 # Mobik
 
 Fast tiny `Array` utility for merging an array of objects by a given key.
@@ -5,7 +9,7 @@ Fast tiny `Array` utility for merging an array of objects by a given key.
 ## :package: Installation
 
 ```bash
-npm install pmobik --save
+npm install mobik --save
 ```
 
 ## :rocket: Load
