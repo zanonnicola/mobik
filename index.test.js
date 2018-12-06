@@ -1,4 +1,4 @@
-import mobik from './src';
+import mobik from './src/mobik';
 
 const mockData = [{
 	countryName: 'Egypt',

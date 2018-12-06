@@ -1,8 +1,8 @@
 {
   "name": "mobik",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "273 Bytes Array utility for merging an array of objects by a given key",
-  "source": "src/index.js",
+  "source": "src/mobik.js",
   "main": "dist/mobik.js",
   "module": "dist/mobik.mjs",
   "umd:main": "dist/mobik.umd.js",
@@ -22,6 +22,9 @@
     "utility"
   ],
   "xo": {
+    "rules": {
+      "unicorn/prefer-spread": 0
+    },
     "envs": [
       "node",
       "jest"

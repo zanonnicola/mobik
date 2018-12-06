@@ -6,7 +6,6 @@ export default function mobik(key = throwIfMissing(), array = throwIfMissing()) 
 	if (!Array.isArray(array)) {
 		return null;
 	}
-	const mergedArray = [];
 	const map = new Map();
 
 	array.forEach(el => {
@@ -20,9 +19,5 @@ export default function mobik(key = throwIfMissing(), array = throwIfMissing()) 
 	if (map.has(undefined) && map.size === 1) {
 		return [];
 	}
-
-	for (const [, value] of map) {
-		mergedArray.push(Object.assign(...value));
-	}
-	return mergedArray;
+	return Array.from(map.entries()).map(([, value]) => Object.assign(...value));
 }
