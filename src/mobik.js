@@ -4,7 +4,7 @@ const throwIfMissing = () => {
 
 export default function mobik(key = throwIfMissing(), array = throwIfMissing()) {
 	if (!Array.isArray(array)) {
-		return null;
+		return [];
 	}
 	const map = new Map();
 
