@@ -1,19 +1,20 @@
 {
   "name": "mobik",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "273 Bytes Array utility for merging an array of objects by a given key",
   "source": "src/mobik.js",
-  "main": "dist/mobik.js",
-  "module": "dist/mobik.mjs",
-  "umd:main": "dist/mobik.umd.js",
+  "main": "lib/mobik.cjs.js",
+  "module": "lib/mobik.esm.js",
+  "browser": "lib/mobik.umd.js",
   "scripts": {
     "test": "xo src/*.js && jest",
-    "build": "microbundle -o dist",
-    "dev": "microbundle watch",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "prepublish": "npm run build"
   },
   "files": [
-    "/dist"
+    "/lib",
+    "/src"
   ],
   "keywords": [
     "js",
@@ -44,8 +45,11 @@
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "jest": "^23.6.0",
-    "microbundle": "^0.8.3",
     "regenerator-runtime": "^0.13.1",
+    "rollup": "^0.67.4",
+    "rollup-plugin-analyzer": "^2.1.0",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-terser": "^3.0.0",
     "xo": "^0.23.0"
   }
 }
