@@ -45,7 +45,7 @@ describe('@mobik module', () => {
 	});
 	it('should return null if the the second argument is not an array', () => {
 		const result = mobik('noKey', '[]');
-		expect(result).toBeNull();
+		expect(result).toEqual([]);
 	});
 	it('should return empty array if key is not found', () => {
 		const result = mobik('noKey', mockData);

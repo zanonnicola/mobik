@@ -56,7 +56,7 @@ const newArray = mobik('a', [{a: 1, b: 2}, {c: 3, a: 1}]);
 > It works with nested objects too!
 
 ```javascript
-const newArray = mobik(['a', {a: 1, b: 2}, {c: {d: 4}, a: 1}]);
+const newArray = mobik('a', [{a: 1, b: 2}, {c: {d: 4}, a: 1}]);
 
 /*
 [
